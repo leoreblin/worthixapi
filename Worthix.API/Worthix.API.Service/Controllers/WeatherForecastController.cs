@@ -5,7 +5,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
 
-namespace Worthix.API.Controllers
+namespace Worthix.API.Service.Controllers
 {
     [ApiController]
     [Route("[controller]")]

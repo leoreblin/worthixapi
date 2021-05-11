@@ -1,6 +1,6 @@
 using System;
 
-namespace Worthix.API
+namespace Worthix.API.Service
 {
     public class WeatherForecast
     {

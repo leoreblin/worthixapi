@@ -1,0 +1,12 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Folder Include="04.1_Data\" />
+    <Folder Include="04.2_CrossCutting\" />
+  </ItemGroup>
+
+</Project>
