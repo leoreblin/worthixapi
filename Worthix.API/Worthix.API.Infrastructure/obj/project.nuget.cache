@@ -1,8 +1,28 @@
 {
   "version": 2,
-  "dgSpecHash": "rA1/A6VE5gpebkqUkoJEf1fozVDPAixdSAlFb3mDEfdBA2rh8oTozf7j7mVP2fIOakV5nMo8+ij5B/ZaHoIFEg==",
+  "dgSpecHash": "iAEvYc9LBd8Z6Q6jvrMN8JpOMt//waREROOoIDU7V/TT+OO6BTuh9+il4uNSY437BiH5kF9RgX9226rSOTjY0w==",
   "success": true,
   "projectFilePath": "E:\\projetos\\dotnet\\worthixapi\\Worthix.API\\Worthix.API.Infrastructure\\Worthix.API.Infrastructure.csproj",
-  "expectedPackageFiles": [],
+  "expectedPackageFiles": [
+    "C:\\Users\\Leo Reblin\\.nuget\\packages\\microsoft.bcl.asyncinterfaces\\1.1.1\\microsoft.bcl.asyncinterfaces.1.1.1.nupkg.sha512",
+    "C:\\Users\\Leo Reblin\\.nuget\\packages\\microsoft.bcl.hashcode\\1.1.1\\microsoft.bcl.hashcode.1.1.1.nupkg.sha512",
+    "C:\\Users\\Leo Reblin\\.nuget\\packages\\microsoft.entityframeworkcore\\3.1.14\\microsoft.entityframeworkcore.3.1.14.nupkg.sha512",
+    "C:\\Users\\Leo Reblin\\.nuget\\packages\\microsoft.entityframeworkcore.abstractions\\3.1.14\\microsoft.entityframeworkcore.abstractions.3.1.14.nupkg.sha512",
+    "C:\\Users\\Leo Reblin\\.nuget\\packages\\microsoft.entityframeworkcore.analyzers\\3.1.14\\microsoft.entityframeworkcore.analyzers.3.1.14.nupkg.sha512",
+    "C:\\Users\\Leo Reblin\\.nuget\\packages\\microsoft.extensions.caching.abstractions\\3.1.14\\microsoft.extensions.caching.abstractions.3.1.14.nupkg.sha512",
+    "C:\\Users\\Leo Reblin\\.nuget\\packages\\microsoft.extensions.caching.memory\\3.1.14\\microsoft.extensions.caching.memory.3.1.14.nupkg.sha512",
+    "C:\\Users\\Leo Reblin\\.nuget\\packages\\microsoft.extensions.configuration\\3.1.14\\microsoft.extensions.configuration.3.1.14.nupkg.sha512",
+    "C:\\Users\\Leo Reblin\\.nuget\\packages\\microsoft.extensions.configuration.abstractions\\3.1.14\\microsoft.extensions.configuration.abstractions.3.1.14.nupkg.sha512",
+    "C:\\Users\\Leo Reblin\\.nuget\\packages\\microsoft.extensions.configuration.binder\\3.1.14\\microsoft.extensions.configuration.binder.3.1.14.nupkg.sha512",
+    "C:\\Users\\Leo Reblin\\.nuget\\packages\\microsoft.extensions.dependencyinjection\\3.1.14\\microsoft.extensions.dependencyinjection.3.1.14.nupkg.sha512",
+    "C:\\Users\\Leo Reblin\\.nuget\\packages\\microsoft.extensions.dependencyinjection.abstractions\\3.1.14\\microsoft.extensions.dependencyinjection.abstractions.3.1.14.nupkg.sha512",
+    "C:\\Users\\Leo Reblin\\.nuget\\packages\\microsoft.extensions.logging\\3.1.14\\microsoft.extensions.logging.3.1.14.nupkg.sha512",
+    "C:\\Users\\Leo Reblin\\.nuget\\packages\\microsoft.extensions.logging.abstractions\\3.1.14\\microsoft.extensions.logging.abstractions.3.1.14.nupkg.sha512",
+    "C:\\Users\\Leo Reblin\\.nuget\\packages\\microsoft.extensions.options\\3.1.14\\microsoft.extensions.options.3.1.14.nupkg.sha512",
+    "C:\\Users\\Leo Reblin\\.nuget\\packages\\microsoft.extensions.primitives\\3.1.14\\microsoft.extensions.primitives.3.1.14.nupkg.sha512",
+    "C:\\Users\\Leo Reblin\\.nuget\\packages\\system.collections.immutable\\1.7.1\\system.collections.immutable.1.7.1.nupkg.sha512",
+    "C:\\Users\\Leo Reblin\\.nuget\\packages\\system.componentmodel.annotations\\4.7.0\\system.componentmodel.annotations.4.7.0.nupkg.sha512",
+    "C:\\Users\\Leo Reblin\\.nuget\\packages\\system.diagnostics.diagnosticsource\\4.7.1\\system.diagnostics.diagnosticsource.4.7.1.nupkg.sha512"
+  ],
   "logs": []
 }

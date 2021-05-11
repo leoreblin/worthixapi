@@ -1,11 +1,30 @@
 {
   "version": 3,
   "targets": {
-    ".NETCoreApp,Version=v3.1": {}
+    ".NETCoreApp,Version=v3.1": {
+      "Worthix.API.Domain/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v3.1",
+        "compile": {
+          "bin/placeholder/Worthix.API.Domain.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Worthix.API.Domain.dll": {}
+        }
+      }
+    }
   },
-  "libraries": {},
+  "libraries": {
+    "Worthix.API.Domain/1.0.0": {
+      "type": "project",
+      "path": "../Worthix.API.Domain/Worthix.API.Domain.csproj",
+      "msbuildProject": "../Worthix.API.Domain/Worthix.API.Domain.csproj"
+    }
+  },
   "projectFileDependencyGroups": {
-    ".NETCoreApp,Version=v3.1": []
+    ".NETCoreApp,Version=v3.1": [
+      "Worthix.API.Domain >= 1.0.0"
+    ]
   },
   "packageFolders": {
     "C:\\Users\\Leo Reblin\\.nuget\\packages\\": {},
@@ -40,7 +59,11 @@
       "frameworks": {
         "netcoreapp3.1": {
           "targetAlias": "netcoreapp3.1",
-          "projectReferences": {}
+          "projectReferences": {
+            "E:\\projetos\\dotnet\\worthixapi\\Worthix.API\\Worthix.API.Domain\\Worthix.API.Domain.csproj": {
+              "projectPath": "E:\\projetos\\dotnet\\worthixapi\\Worthix.API\\Worthix.API.Domain\\Worthix.API.Domain.csproj"
+            }
+          }
         }
       },
       "warningProperties": {

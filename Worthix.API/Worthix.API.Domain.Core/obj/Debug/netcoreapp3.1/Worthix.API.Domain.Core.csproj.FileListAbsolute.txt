@@ -1,0 +1,12 @@
+E:\projetos\dotnet\worthixapi\Worthix.API\Worthix.API.Domain.Core\bin\Debug\netcoreapp3.1\Worthix.API.Domain.Core.deps.json
+E:\projetos\dotnet\worthixapi\Worthix.API\Worthix.API.Domain.Core\bin\Debug\netcoreapp3.1\Worthix.API.Domain.Core.dll
+E:\projetos\dotnet\worthixapi\Worthix.API\Worthix.API.Domain.Core\bin\Debug\netcoreapp3.1\Worthix.API.Domain.Core.pdb
+E:\projetos\dotnet\worthixapi\Worthix.API\Worthix.API.Domain.Core\bin\Debug\netcoreapp3.1\Worthix.API.Domain.dll
+E:\projetos\dotnet\worthixapi\Worthix.API\Worthix.API.Domain.Core\bin\Debug\netcoreapp3.1\Worthix.API.Domain.pdb
+E:\projetos\dotnet\worthixapi\Worthix.API\Worthix.API.Domain.Core\obj\Debug\netcoreapp3.1\Worthix.API.Domain.Core.csprojAssemblyReference.cache
+E:\projetos\dotnet\worthixapi\Worthix.API\Worthix.API.Domain.Core\obj\Debug\netcoreapp3.1\Worthix.API.Domain.Core.AssemblyInfoInputs.cache
+E:\projetos\dotnet\worthixapi\Worthix.API\Worthix.API.Domain.Core\obj\Debug\netcoreapp3.1\Worthix.API.Domain.Core.AssemblyInfo.cs
+E:\projetos\dotnet\worthixapi\Worthix.API\Worthix.API.Domain.Core\obj\Debug\netcoreapp3.1\Worthix.API.Domain.Core.csproj.CoreCompileInputs.cache
+E:\projetos\dotnet\worthixapi\Worthix.API\Worthix.API.Domain.Core\obj\Debug\netcoreapp3.1\Worthix.API.Domain.Core.csproj.CopyComplete
+E:\projetos\dotnet\worthixapi\Worthix.API\Worthix.API.Domain.Core\obj\Debug\netcoreapp3.1\Worthix.API.Domain.Core.dll
+E:\projetos\dotnet\worthixapi\Worthix.API\Worthix.API.Domain.Core\obj\Debug\netcoreapp3.1\Worthix.API.Domain.Core.pdb

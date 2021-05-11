@@ -5,8 +5,17 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <Folder Include="04.1_Data\" />
-    <Folder Include="04.2_CrossCutting\" />
+    <Folder Include="CrossCutting\IOC\" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Microsoft.EntityFrameworkCore" Version="3.1.14" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\Worthix.API.Domain.Core\Worthix.API.Domain.Core.csproj" />
+    <ProjectReference Include="..\Worthix.API.Domain\Worthix.API.Domain.csproj" />
+    <ProjectReference Include="..\Worthix.Application\Worthix.API.Application.csproj" />
   </ItemGroup>
 
 </Project>

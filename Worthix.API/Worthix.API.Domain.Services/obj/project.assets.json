@@ -1,11 +1,48 @@
 {
   "version": 3,
   "targets": {
-    ".NETCoreApp,Version=v3.1": {}
+    ".NETCoreApp,Version=v3.1": {
+      "Worthix.API.Domain/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v3.1",
+        "compile": {
+          "bin/placeholder/Worthix.API.Domain.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Worthix.API.Domain.dll": {}
+        }
+      },
+      "Worthix.API.Domain.Core/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v3.1",
+        "dependencies": {
+          "Worthix.API.Domain": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/Worthix.API.Domain.Core.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Worthix.API.Domain.Core.dll": {}
+        }
+      }
+    }
   },
-  "libraries": {},
+  "libraries": {
+    "Worthix.API.Domain/1.0.0": {
+      "type": "project",
+      "path": "../Worthix.API.Domain/Worthix.API.Domain.csproj",
+      "msbuildProject": "../Worthix.API.Domain/Worthix.API.Domain.csproj"
+    },
+    "Worthix.API.Domain.Core/1.0.0": {
+      "type": "project",
+      "path": "../Worthix.API.Domain.Core/Worthix.API.Domain.Core.csproj",
+      "msbuildProject": "../Worthix.API.Domain.Core/Worthix.API.Domain.Core.csproj"
+    }
+  },
   "projectFileDependencyGroups": {
-    ".NETCoreApp,Version=v3.1": []
+    ".NETCoreApp,Version=v3.1": [
+      "Worthix.API.Domain.Core >= 1.0.0"
+    ]
   },
   "packageFolders": {
     "C:\\Users\\Leo Reblin\\.nuget\\packages\\": {},
@@ -40,7 +77,11 @@
       "frameworks": {
         "netcoreapp3.1": {
           "targetAlias": "netcoreapp3.1",
-          "projectReferences": {}
+          "projectReferences": {
+            "E:\\projetos\\dotnet\\worthixapi\\Worthix.API\\Worthix.API.Domain.Core\\Worthix.API.Domain.Core.csproj": {
+              "projectPath": "E:\\projetos\\dotnet\\worthixapi\\Worthix.API\\Worthix.API.Domain.Core\\Worthix.API.Domain.Core.csproj"
+            }
+          }
         }
       },
       "warningProperties": {

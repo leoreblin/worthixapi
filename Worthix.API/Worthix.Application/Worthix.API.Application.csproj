@@ -5,8 +5,7 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <Folder Include="DTOs\" />
-    <Folder Include="Interfaces\" />
+    <ProjectReference Include="..\Worthix.API.Domain\Worthix.API.Domain.csproj" />
   </ItemGroup>
 
 </Project>
