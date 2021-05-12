@@ -3,15 +3,13 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using Worthix.API.Application.DTOs;
+using Worthix.API.Application.Interfaces;
 using Worthix.API.Domain.Entities;
-using Worthix.API.Infrastructure.CrossCutting.Interfaces;
 
-namespace Worthix.API.Infrastructure.CrossCutting.Mapper
+namespace Worthix.API.Application.Mappers
 {
     public class MapperAutor : IMapperAutor
     {
-        IEnumerable<AutorDTO> autorDTOs = new List<AutorDTO>();
-
         public Autor MapperDtoToEntity(AutorDTO autorDTO)
         {
             Autor autor = new Autor()

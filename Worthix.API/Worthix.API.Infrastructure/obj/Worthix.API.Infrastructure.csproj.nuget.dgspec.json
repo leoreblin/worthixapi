@@ -67,6 +67,69 @@
         }
       }
     },
+    "E:\\projetos\\dotnet\\worthixapi\\Worthix.API\\Worthix.API.Domain.Services\\Worthix.API.Domain.Services.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "E:\\projetos\\dotnet\\worthixapi\\Worthix.API\\Worthix.API.Domain.Services\\Worthix.API.Domain.Services.csproj",
+        "projectName": "Worthix.API.Domain.Services",
+        "projectPath": "E:\\projetos\\dotnet\\worthixapi\\Worthix.API\\Worthix.API.Domain.Services\\Worthix.API.Domain.Services.csproj",
+        "packagesPath": "C:\\Users\\Leo Reblin\\.nuget\\packages\\",
+        "outputPath": "E:\\projetos\\dotnet\\worthixapi\\Worthix.API\\Worthix.API.Domain.Services\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Microsoft\\Xamarin\\NuGet\\",
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\Leo Reblin\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp3.1"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp3.1": {
+            "targetAlias": "netcoreapp3.1",
+            "projectReferences": {
+              "E:\\projetos\\dotnet\\worthixapi\\Worthix.API\\Worthix.API.Domain.Core\\Worthix.API.Domain.Core.csproj": {
+                "projectPath": "E:\\projetos\\dotnet\\worthixapi\\Worthix.API\\Worthix.API.Domain.Core\\Worthix.API.Domain.Core.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp3.1": {
+          "targetAlias": "netcoreapp3.1",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.102\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
     "E:\\projetos\\dotnet\\worthixapi\\Worthix.API\\Worthix.API.Domain\\Worthix.API.Domain.csproj": {
       "version": "1.0.0",
       "restore": {
@@ -158,6 +221,9 @@
               "E:\\projetos\\dotnet\\worthixapi\\Worthix.API\\Worthix.API.Domain.Core\\Worthix.API.Domain.Core.csproj": {
                 "projectPath": "E:\\projetos\\dotnet\\worthixapi\\Worthix.API\\Worthix.API.Domain.Core\\Worthix.API.Domain.Core.csproj"
               },
+              "E:\\projetos\\dotnet\\worthixapi\\Worthix.API\\Worthix.API.Domain.Services\\Worthix.API.Domain.Services.csproj": {
+                "projectPath": "E:\\projetos\\dotnet\\worthixapi\\Worthix.API\\Worthix.API.Domain.Services\\Worthix.API.Domain.Services.csproj"
+              },
               "E:\\projetos\\dotnet\\worthixapi\\Worthix.API\\Worthix.API.Domain\\Worthix.API.Domain.csproj": {
                 "projectPath": "E:\\projetos\\dotnet\\worthixapi\\Worthix.API\\Worthix.API.Domain\\Worthix.API.Domain.csproj"
               },
@@ -177,7 +243,19 @@
         "netcoreapp3.1": {
           "targetAlias": "netcoreapp3.1",
           "dependencies": {
+            "Autofac": {
+              "target": "Package",
+              "version": "[6.2.0, )"
+            },
+            "Autofac.Extensions.DependencyInjection": {
+              "target": "Package",
+              "version": "[7.1.0, )"
+            },
             "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[3.1.14, )"
+            },
+            "Microsoft.EntityFrameworkCore.SqlServer": {
               "target": "Package",
               "version": "[3.1.14, )"
             }
@@ -230,6 +308,9 @@
           "netcoreapp3.1": {
             "targetAlias": "netcoreapp3.1",
             "projectReferences": {
+              "E:\\projetos\\dotnet\\worthixapi\\Worthix.API\\Worthix.API.Domain.Core\\Worthix.API.Domain.Core.csproj": {
+                "projectPath": "E:\\projetos\\dotnet\\worthixapi\\Worthix.API\\Worthix.API.Domain.Core\\Worthix.API.Domain.Core.csproj"
+              },
               "E:\\projetos\\dotnet\\worthixapi\\Worthix.API\\Worthix.API.Domain\\Worthix.API.Domain.csproj": {
                 "projectPath": "E:\\projetos\\dotnet\\worthixapi\\Worthix.API\\Worthix.API.Domain\\Worthix.API.Domain.csproj"
               }

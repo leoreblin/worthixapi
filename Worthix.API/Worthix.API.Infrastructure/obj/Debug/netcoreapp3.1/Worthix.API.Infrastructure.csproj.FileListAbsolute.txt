@@ -12,3 +12,7 @@ E:\projetos\dotnet\worthixapi\Worthix.API\Worthix.API.Infrastructure\obj\Debug\n
 E:\projetos\dotnet\worthixapi\Worthix.API\Worthix.API.Infrastructure\obj\Debug\netcoreapp3.1\Worthix.API.Infrastructure.csproj.CopyComplete
 E:\projetos\dotnet\worthixapi\Worthix.API\Worthix.API.Infrastructure\obj\Debug\netcoreapp3.1\Worthix.API.Infrastructure.dll
 E:\projetos\dotnet\worthixapi\Worthix.API\Worthix.API.Infrastructure\obj\Debug\netcoreapp3.1\Worthix.API.Infrastructure.pdb
+E:\projetos\dotnet\worthixapi\Worthix.API\Worthix.API.Infrastructure\bin\Debug\netcoreapp3.1\Worthix.API.Application.dll
+E:\projetos\dotnet\worthixapi\Worthix.API\Worthix.API.Infrastructure\bin\Debug\netcoreapp3.1\Worthix.API.Application.pdb
+E:\projetos\dotnet\worthixapi\Worthix.API\Worthix.API.Infrastructure\bin\Debug\netcoreapp3.1\Worthix.API.Domain.Services.dll
+E:\projetos\dotnet\worthixapi\Worthix.API\Worthix.API.Infrastructure\bin\Debug\netcoreapp3.1\Worthix.API.Domain.Services.pdb

@@ -4,7 +4,7 @@ using Worthix.API.Domain.Core.Interfaces.Services;
 
 namespace Worthix.API.Domain.Services
 {
-    public class ServiceBase<T> : IServiceBase<T> where T : class
+    public abstract class ServiceBase<T> : IServiceBase<T> where T : class
     {
         private readonly IRepositoryBase<T> _repository;
         public ServiceBase(IRepositoryBase<T> repository)

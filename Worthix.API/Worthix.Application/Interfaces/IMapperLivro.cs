@@ -4,7 +4,7 @@ using System.Text;
 using Worthix.API.Application.DTOs;
 using Worthix.API.Domain.Entities;
 
-namespace Worthix.API.Infrastructure.CrossCutting.Interfaces
+namespace Worthix.API.Application.Interfaces
 {
     public interface IMapperLivro
     {

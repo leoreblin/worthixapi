@@ -5,6 +5,7 @@
   </PropertyGroup>
 
   <ItemGroup>
+    <ProjectReference Include="..\Worthix.API.Domain.Core\Worthix.API.Domain.Core.csproj" />
     <ProjectReference Include="..\Worthix.API.Domain\Worthix.API.Domain.csproj" />
   </ItemGroup>
 

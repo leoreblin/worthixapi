@@ -7,3 +7,8 @@ E:\projetos\dotnet\worthixapi\Worthix.API\Worthix.Application\obj\Debug\netcorea
 E:\projetos\dotnet\worthixapi\Worthix.API\Worthix.Application\obj\Debug\netcoreapp3.1\Worthix.API.Application.csproj.CoreCompileInputs.cache
 E:\projetos\dotnet\worthixapi\Worthix.API\Worthix.Application\obj\Debug\netcoreapp3.1\Worthix.API.Application.dll
 E:\projetos\dotnet\worthixapi\Worthix.API\Worthix.Application\obj\Debug\netcoreapp3.1\Worthix.API.Application.pdb
+E:\projetos\dotnet\worthixapi\Worthix.API\Worthix.Application\bin\Debug\netcoreapp3.1\Worthix.API.Domain.Core.dll
+E:\projetos\dotnet\worthixapi\Worthix.API\Worthix.Application\bin\Debug\netcoreapp3.1\Worthix.API.Domain.dll
+E:\projetos\dotnet\worthixapi\Worthix.API\Worthix.Application\bin\Debug\netcoreapp3.1\Worthix.API.Domain.Core.pdb
+E:\projetos\dotnet\worthixapi\Worthix.API\Worthix.Application\bin\Debug\netcoreapp3.1\Worthix.API.Domain.pdb
+E:\projetos\dotnet\worthixapi\Worthix.API\Worthix.Application\obj\Debug\netcoreapp3.1\Worthix.API.Application.csproj.CopyComplete
