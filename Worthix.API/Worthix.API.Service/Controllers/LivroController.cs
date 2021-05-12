@@ -1,21 +1,18 @@
 ﻿using Microsoft.AspNetCore.Mvc;
 using System;
 using System.Collections.Generic;
-using System.Linq;
-using System.Threading.Tasks;
 using Worthix.API.Application.DTOs;
 using Worthix.API.Application.Interfaces;
-using Worthix.API.Domain.Entities;
 
 namespace Worthix.API.Service.Controllers
 {
-    [Route("api/[controller]")]
+    [Route("[controller]")]
     [ApiController]
-    public class AutorController : ControllerBase
+    public class LivroController : ControllerBase
     {
-        private readonly IApplicationServiceAutor _appservice;
+        private readonly IApplicationServiceLivro _appservice;
 
-        public AutorController(IApplicationServiceAutor appservice)
+        public LivroController(IApplicationServiceLivro appservice)
         {
             _appservice = appservice;
         }
@@ -33,17 +30,17 @@ namespace Worthix.API.Service.Controllers
         }
 
         [HttpPost]
-        public ActionResult Post([FromBody] AutorDTO autorDTO)
+        public ActionResult Post([FromBody] LivroDTO livroDTO)
         {
             try
             {
-                if (autorDTO == null)
+                if (livroDTO == null)
                 {
                     return NotFound();
                 }
 
-                _appservice.Add(autorDTO);
-                return Ok("Autor cadastrado com sucesso!");
+                _appservice.Add(livroDTO);
+                return Ok("Livro cadastrado com sucesso!");
             }
             catch (Exception ex)
             {
@@ -52,17 +49,17 @@ namespace Worthix.API.Service.Controllers
         }
 
         [HttpPut]
-        public ActionResult Put([FromBody] AutorDTO autorDTO)
+        public ActionResult Put([FromBody] LivroDTO livroDTO)
         {
             try
             {
-                if (autorDTO == null)
+                if (livroDTO == null)
                 {
                     return NotFound();
                 }
 
-                _appservice.Update(autorDTO);
-                return Ok("Autor atualizado com sucesso!");
+                _appservice.Update(livroDTO);
+                return Ok("Livro atualizado com sucesso!");
             }
             catch (Exception ex)
             {
@@ -71,17 +68,17 @@ namespace Worthix.API.Service.Controllers
         }
 
         [HttpDelete()]
-        public ActionResult Delete([FromBody] AutorDTO autorDTO)
+        public ActionResult Delete([FromBody] LivroDTO livroDTO)
         {
             try
             {
-                if (autorDTO == null)
+                if (livroDTO == null)
                 {
                     return NotFound();
                 }
 
-                _appservice.Remove(autorDTO);
-                return Ok("Autor removido com sucesso!");
+                _appservice.Remove(livroDTO);
+                return Ok("Livro removido com sucesso!");
             }
             catch (Exception ex)
             {
