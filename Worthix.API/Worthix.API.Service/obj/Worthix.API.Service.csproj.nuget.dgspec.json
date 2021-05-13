@@ -255,7 +255,19 @@
               "target": "Package",
               "version": "[3.1.14, )"
             },
+            "Microsoft.EntityFrameworkCore.Design": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[3.1.14, )"
+            },
             "Microsoft.EntityFrameworkCore.SqlServer": {
+              "target": "Package",
+              "version": "[3.1.14, )"
+            },
+            "Microsoft.EntityFrameworkCore.Tools": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
               "target": "Package",
               "version": "[3.1.14, )"
             }
@@ -308,8 +320,20 @@
           "netcoreapp3.1": {
             "targetAlias": "netcoreapp3.1",
             "projectReferences": {
+              "E:\\projetos\\dotnet\\worthixapi\\Worthix.API\\Worthix.API.Domain.Core\\Worthix.API.Domain.Core.csproj": {
+                "projectPath": "E:\\projetos\\dotnet\\worthixapi\\Worthix.API\\Worthix.API.Domain.Core\\Worthix.API.Domain.Core.csproj"
+              },
+              "E:\\projetos\\dotnet\\worthixapi\\Worthix.API\\Worthix.API.Domain.Services\\Worthix.API.Domain.Services.csproj": {
+                "projectPath": "E:\\projetos\\dotnet\\worthixapi\\Worthix.API\\Worthix.API.Domain.Services\\Worthix.API.Domain.Services.csproj"
+              },
+              "E:\\projetos\\dotnet\\worthixapi\\Worthix.API\\Worthix.API.Domain\\Worthix.API.Domain.csproj": {
+                "projectPath": "E:\\projetos\\dotnet\\worthixapi\\Worthix.API\\Worthix.API.Domain\\Worthix.API.Domain.csproj"
+              },
               "E:\\projetos\\dotnet\\worthixapi\\Worthix.API\\Worthix.API.Infrastructure\\Worthix.API.Infrastructure.csproj": {
                 "projectPath": "E:\\projetos\\dotnet\\worthixapi\\Worthix.API\\Worthix.API.Infrastructure\\Worthix.API.Infrastructure.csproj"
+              },
+              "E:\\projetos\\dotnet\\worthixapi\\Worthix.API\\Worthix.Application\\Worthix.API.Application.csproj": {
+                "projectPath": "E:\\projetos\\dotnet\\worthixapi\\Worthix.API\\Worthix.Application\\Worthix.API.Application.csproj"
               }
             }
           }
@@ -327,6 +351,22 @@
             "Autofac": {
               "target": "Package",
               "version": "[6.2.0, )"
+            },
+            "Microsoft.EntityFrameworkCore.Design": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[3.1.14, )"
+            },
+            "Microsoft.EntityFrameworkCore.SqlServer": {
+              "target": "Package",
+              "version": "[3.1.14, )"
+            },
+            "Microsoft.EntityFrameworkCore.Tools": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[3.1.14, )"
             },
             "Swashbuckle.AspNetCore": {
               "target": "Package",

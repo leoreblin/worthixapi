@@ -51,7 +51,6 @@ E:\projetos\dotnet\worthixapi\Worthix.API\Worthix.API.Service\bin\Debug\netcorea
 E:\projetos\dotnet\worthixapi\Worthix.API\Worthix.API.Service\bin\Debug\netcoreapp3.1\Worthix.API.Domain.pdb
 E:\projetos\dotnet\worthixapi\Worthix.API\Worthix.API.Service\bin\Debug\netcoreapp3.1\Worthix.API.Domain.Core.pdb
 E:\projetos\dotnet\worthixapi\Worthix.API\Worthix.API.Service\bin\Debug\netcoreapp3.1\Worthix.API.Domain.Services.pdb
-E:\projetos\dotnet\worthixapi\Worthix.API\Worthix.API.Service\obj\Debug\netcoreapp3.1\Worthix.API.Service.MvcApplicationPartsAssemblyInfo.cs
 E:\projetos\dotnet\worthixapi\Worthix.API\Worthix.API.Service\bin\Debug\netcoreapp3.1\Microsoft.Data.SqlClient.dll
 E:\projetos\dotnet\worthixapi\Worthix.API\Worthix.API.Service\bin\Debug\netcoreapp3.1\Microsoft.EntityFrameworkCore.Relational.dll
 E:\projetos\dotnet\worthixapi\Worthix.API\Worthix.API.Service\bin\Debug\netcoreapp3.1\Microsoft.EntityFrameworkCore.SqlServer.dll
@@ -75,3 +74,5 @@ E:\projetos\dotnet\worthixapi\Worthix.API\Worthix.API.Service\bin\Debug\netcorea
 E:\projetos\dotnet\worthixapi\Worthix.API\Worthix.API.Service\bin\Debug\netcoreapp3.1\runtimes\win\lib\netcoreapp2.0\System.Runtime.Caching.dll
 E:\projetos\dotnet\worthixapi\Worthix.API\Worthix.API.Service\bin\Debug\netcoreapp3.1\runtimes\win\lib\netstandard2.0\System.Security.Cryptography.ProtectedData.dll
 E:\projetos\dotnet\worthixapi\Worthix.API\Worthix.API.Service\bin\Debug\netcoreapp3.1\Autofac.Extensions.DependencyInjection.dll
+E:\projetos\dotnet\worthixapi\Worthix.API\Worthix.API.Service\obj\Debug\netcoreapp3.1\Worthix.API.Service.MvcApplicationPartsAssemblyInfo.cs
+E:\projetos\dotnet\worthixapi\Worthix.API\Worthix.API.Service\bin\Debug\netcoreapp3.1\Microsoft.EntityFrameworkCore.Design.dll

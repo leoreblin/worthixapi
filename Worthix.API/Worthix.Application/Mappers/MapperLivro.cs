@@ -14,8 +14,8 @@ namespace Worthix.API.Application.Mappers
         {
             Livro livro = new Livro()
             {
-                Id = livroDTO.Id,
-                Autor = livroDTO.Autor,
+                LivroId = livroDTO.Id,
+                AutorId = livroDTO.AutorId,
                 Categoria = livroDTO.Categoria,
                 DataLancamento = livroDTO.DataLancamento,
                 ISBN = livroDTO.ISBN,
@@ -29,12 +29,12 @@ namespace Worthix.API.Application.Mappers
         {
             LivroDTO livroDTO = new LivroDTO()
             {
-                Id = livro.Id,
+                Id = livro.LivroId,
                 Titulo = livro.Titulo,
                 ISBN = livro.ISBN,
                 DataLancamento = livro.DataLancamento,
                 Categoria = livro.Categoria,
-                Autor = livro.Autor
+                AutorId = livro.AutorId
             };
 
             return livroDTO;
@@ -45,8 +45,8 @@ namespace Worthix.API.Application.Mappers
             var dto = livros.Select(
                 l => new LivroDTO
                 {
-                    Id = l.Id,
-                    Autor = l.Autor,
+                    Id = l.LivroId,
+                    AutorId = l.AutorId,
                     ISBN = l.ISBN,
                     Categoria = l.Categoria,
                     Titulo = l.Titulo,

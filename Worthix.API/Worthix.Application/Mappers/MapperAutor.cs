@@ -14,7 +14,7 @@ namespace Worthix.API.Application.Mappers
         {
             Autor autor = new Autor()
             {
-                Id = autorDTO.Id,
+                AutorId = autorDTO.Id,
                 Nome = autorDTO.Nome,
                 Cpf = autorDTO.Cpf,
                 DataNascimento = autorDTO.DataNascimento,
@@ -28,7 +28,7 @@ namespace Worthix.API.Application.Mappers
         {
             AutorDTO autorDTO = new AutorDTO()
             {
-                Id = autor.Id,
+                Id = autor.AutorId,
                 Nome = autor.Nome,
                 Cpf = autor.Cpf,
                 DataNascimento = autor.DataNascimento,
@@ -43,7 +43,7 @@ namespace Worthix.API.Application.Mappers
             var dto = autores.Select(
                 a => new AutorDTO
                 {
-                    Id = a.Id,
+                    Id = a.AutorId,
                     Nome = a.Nome,
                     Cpf = a.Cpf,
                     DataNascimento = a.DataNascimento,
